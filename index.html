@@ -1,24 +1,249 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Danilo</title>
+    <link rel="stylesheet" href="./main-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="Javascript" href="./validate.js" defer>
+    
+    <title>Portifólio Pessoal</title>
 </head>
 <body>
-    <header>
-        <p>Danilo Lopes</p>
-        <nav>
-            <ul>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Hobbies</a></li>
-                <li><a href="#">Formação</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#"></a>danilocesarloesfocus@outlook.com.br</li>
+    <!-- Sessão de Menu  -->
+    <div class="all">
+        <header>
+            <h3 class="menu__title">Danilo Lopes</h3>
+            <nav>
+                <ul>
+                    <li><a href="#sobremim">Sobre mim</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#academic">Formações e Cursos</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#contato">danilocesarlopes@hotmail.com</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Sessão de Header/Title/Hero -->
+            <section id="hero">
+                <div id="sobremim">
+                    <h1>Olá, meu nome é Danilo Lopes e estou estudando Front-End</h1>
+                    <p></p>
+                    <ul>
+                        <li><a href="https://github.com/DaniloFocus">Github <img src="assets\arrow.png"> </a></li>
+                        <li><a href="https://www.linkedin.com/in/danilo-c%C3%A9sar-jvs/">Linkedin <img src="assets\arrow.png"></a></li>
+                        <li><a href="https://www.instagram.com/focus_music/">Instagram <img src="assets\arrow.png"></a></li>
+                        <li><a href="https://drive.google.com/file/d/105mEKKU4skYTtiAouek4FOJzWpC00GPf/view?usp=sharing">Curriculo <img src="assets\arrow.png"></a></li>
+                    </ul>
+                </div>
+                <img class="image_profile" src="assets/perfil.jpg" width="200" height="200">
+            </section>
+            <!-- Sessão sobre mim -->
+            <section id="about">
+                <div>
+                    <h2>Sobre mim</h2>
+                    <p>Danilo Lopes</p>
+                    <p>22 anos</p>
+                    <p>Brasileiro</p>
+                    <p>Danilo César, estudante de programação, com foco em Front - End, buscando experiência e especialização na área de analise e desenvolvimento de sistemas e densevolvedor front - end.
+                        Prezando sempre por trabalhar em equipe, coopero com todos e ajudo da melhor forma possível, com grande prazer em ensinar e aprender, buscando aumento intelectual e profissional posso contribuir com vocês por muito tempo, à medida que iremos crescer juntos. </p>
+                </div>
+            </section>
+            <!-- Sessão de Skills/Habilidades -->
+            <section id="skills" class="container-list">
+                <h2>Hard-Skills (Densevolvedor)</h2>
+                <ul>
+                    <li class="skills__box">
+                        <img src="assets/html.svg" width="28" height="28">
+                        <h3>Html 5</h3>
+                    </li>
+
+                    <li class="skills__box">
+                        <img src="assets/css.svg" width="30" height="30">
+                        <h3>CSS 3</h3>
+                    </li>
+
+                    <li class="skills__box">
+                        <img src="assets/jvs.svg" width="28" height="28">
+                        <h3>Javascript</h3>
+                    </li>
+
+                    <li class="skills__box">
+                        <img src="assets/git.svg" width="28" height="28">
+                        <h3>Git</h3>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="skills" class="container-list">
+                <h2>Soft-Skills</h2>
+                <ul>
+                    
+                    <li class="skills__box">
+                        <img src="assets/inovar.svg" width="28" height="28">
+                        <h3>Inovação</h3>
+                    </li>
+
+                    <li class="skills__box">
+                        <img src="assets/comunicação.svg" width="30" height="30">
+                        <h3>Comunicação</h3>
+                    </li>
+
+                    <li class="skills__box">
+                        <img src="assets/proativo.svg" width="28" height="28">
+                        <h3>Proatividade</h3>
+                    </li>
+
+                    <li class="skills__box">
+                        <img src="assets/foco.svg" width="28" height="28">
+                        <h3>Foco</h3>
+                    </li>
+
+                </ul>
+            </section>
+
+
+             <!-- Sessão de Skills/Habilidades -->
+            <section id="hobbies" class="container-list">
+                <h2>Hobbies</h2>
+                <ul>
+                    
+                    <li>
+                        <img src="assets/headphone.svg" width="30" height="30">
+                        <h3>Produzir Música <br> (Psy Trance)</h3>
+                    </li>
+
+                    <li>
+                        <img src="assets/Play.svg" width="30" height="30">
+                        <h3>Disc Jockey <br> (DJ)</h3>
+                    </li>
+
+                    <li>
+                        <img src="assets/bike.svg" width="30" height="30">
+                        <h3>Pedalar</h3>
+                    </li>
+
+                    <li>
+                        <img src="assets/wave.svg" width="30" height="30">
+                        <h3>Mixar e masterizar</h3>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section id="academic" class="academic">
+                <h2>Formação acadêmica</h2>
+                <div class="academic__courses">
+                    <div>
+                        <ul class="academic__courses__list">
+                            <!-- Insira a logo de seu local de formação -->
+                            <li><img src="assets/certificado1.png"></li>
+                            <li><h4>Desenvolvimento Pessoal</h4></li>
+                            <li><p>2023 - Alura</p></li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="academic__courses__list">
+                            <!-- Insira a logo de seu local de formação -->
+                            <li><img src="assets/certificado2.png"></li>
+                            <li><h4>Formação Iniciante em programação</h4></li>
+                            <li><p>2023 - Alura</p></li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="academic__courses__list">
+                            <!-- Insira a logo de seu local de formação -->    
+                            <li><img src="assets/certificado3.png"></li>
+                            <li><h4>Business Agility</h4></li>
+                            <li><p>2023 - Alura</p></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </section>
+           
+            <!-- Sessão de Experiência Profissional/Projetos-->
+            <section id="experience">
+                <h2>Experiência Profissional</h2>
+
+                <div class="experiencie__box">
+                    
+                    <div class="container-img">
+                        <img src="./assets/DECOD.png" width="400" height="200">
+                    </div>
+                    
+                    <div class="experience__info">
+                        <h3>Decodificador de texto</h3>
+                        <h4>Challenge Alura Codificador </h4>
+                        <div class="experience__description">
+                            <a href="https://github.com/DaniloFocus/decodificador.git"><button class="btn1">Repositório</button></a>
+                            <a href="file:///C:/Users/focus/Desktop/logica-de-programacao-I-aula-3/logica/decodificador/index.html"><button class="btn2"></buttonclass>Ver demo</button></a>
+                        </div>
+                    </div>
                 
-            </ul>
-        </nav>
-    </header>
+                    
+                </div>
+                
+                <div class="experiencie__box__video">
+                    
+                    <div class="container-img">
+                        <iframe width="806" height="400" src="https://www.youtube.com/embed/J1UQVb0CQrA" title="E SE A SUPER BITCH 2.0 FOSSE UM #PSY/#PROG? #5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="experience__info">
+                        <h3>Video de produção musical</h3>
+                        <h4>Editando uma música</h4>
+                        <div class="experience__description">
+                            <a href="https://www.youtube.com/@focusliive"><button class="btn1">Canal do Youtube</button></a>
+                            <a href="https://www.youtube.com/watch?v=J1UQVb0CQrA&t=705s"><button class="btn2"></buttonclass>Ver video</button></a>
+                        </div>
+                </div>  
+
+            </section>
+
+            
+            <section class="formcontato">
+                <div id="contato" class="formcontato__contacto">
+                    <div class="formcontato--esquerda">
+                        <img class="formcontato__img" src="assets\contact_image.png" width="330" height="370">
+                    </div>
+                    <div class="formcontato__text">
+                        <h2 class="formcontato__title">Contato</h2>
+                        <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
+                        <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+                        </h3>
+                        <form id="form" class="formcontato__form">
+                            <input class="formcontato__input" type="text" id="name" placeholder="Nome" maxlength="50">
+                            <input class="formcontato__input" type="email" id="email" placeholder="Email">
+                            <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" maxlength="50">
+                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem"
+                                placeholder="Sua mensagem" maxlength="300"></textarea>
+                            <button id="btnForm" class="formcontato__botao">Enviar mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </section> 
+        
+        </main>
+
+        <footer>
+            <div class="footer__rodape">
+                <img width="20" height="20" src="https://img.icons8.com/fluency-systems-regular/48/creative-commons-all-rights-reserved.png" alt="creative-commons-all-rights-reserved"/>                <p>Desenvolvido por Danilo Lopes</p>
+                <p>2023</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="validate.js"></script>
 </body>
 </html>
+
